@@ -14,8 +14,9 @@ int[] GetArray(int size, int minValue, int maxValue)
     }
     return res;
 }
-
+Console.Write("[");
 int[] array = GetArray(10, 100, 999);
+Console.Write("]");
 
 int EvenNumbers(int[] array1)
 {

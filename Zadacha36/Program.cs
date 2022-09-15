@@ -15,7 +15,9 @@ int[] GetArray(int size, int minValue, int maxValue)
     return res;
 }
 
+Console.Write("[");
 int[] array = GetArray(10, -20, 20);
+Console.Write("]");
 
 int SumOddNambers(int[] array1)
 {

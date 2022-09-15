@@ -14,7 +14,9 @@ int[] GetArray(int size, int minValue, int maxValue)
     return res;
 }
 
+Console.Write("[");
 int[] array = GetArray(10, 1, 50);
+Console.Write("]");
 
 int Difference(int[] array1)
 {
